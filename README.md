@@ -76,9 +76,47 @@ Categoria com maior participação no faturamento total.
 
 Análise da distribuição de pedidos entre os países atendidos.
 
-```DAX
-Ticket Medio = DIVIDE([Receita], [Pedidos])
+
+---
+
+## 🗂️ Estrutura do Dashboard
+
+### Página 1 — Visão Geral
+A primeira página foi criada para apresentar uma visão executiva do negócio, com os principais indicadores e tendências:
+
+- Receita total
+- Pedidos
+- Ticket médio
+- Produtos vendidos
+- Clientes ativos
+- Quantidade de clientes por país
+- Evolução do ticket médio ao longo do tempo
+- Evolução da quantidade vendida
+
+### Página 2 — Produtos e Categorias
+A segunda página aprofunda a análise comercial e de portfólio, destacando:
+
+- Produto mais vendido
+- Produto mais rentável
+- Categoria líder em receita
+- Produto com maior receita
+- Receita por produto vendido
+- Quantidade de produtos vendidos
+- Comparação entre receita e quantidade por categoria
+- Pedidos por país
+- Distribuição percentual de pedidos por país
+
+Essa página permite entender não apenas o que vende mais, mas também o que gera mais valor para o negócio.
+
+## Principais Insights
+
+- Existe uma **tendência de crescimento na quantidade vendida ao longo do tempo**
+- O ticket médio apresenta oscilações ao longo dos meses, impactando diretamente a receita
+- Algumas categorias concentram grande parte da **receita total**
+- Nem sempre os produtos mais vendidos são os mais rentáveis
+- A análise por categoria mostra diferenças entre **volume vendido** e **geração de valor**
+- Os pedidos estão concentrados em poucos países, o que indica mercados prioritários para o negócio
 
 
 ## 💡 Considerações Finais
-O dashboard permite uma visão clara da saúde do negócio, destacando padrões de crescimento, comportamento de clientes e desempenho de produtos, auxiliando na tomada de decisões estratégicas.
+O dashboard oferece uma visão clara da saúde do negócio, combinando uma leitura executiva na primeira página com uma análise detalhada de produtos e categorias na segunda. Dessa forma, é possível identificar padrões de crescimento, comportamento de clientes, desempenho de produtos e concentração de pedidos por país, apoiando decisões mais estratégicas e orientadas por dados.
